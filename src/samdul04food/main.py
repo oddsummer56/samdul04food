@@ -11,4 +11,4 @@ def read_root():
 
 @app.get("/food")
 def food(name: str):
-    return {"food": name, "time", datetime.now()}
+    return {"food": name, "time": datetime.now()}
